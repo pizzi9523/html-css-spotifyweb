@@ -1,6 +1,51 @@
+/***********
+Common*
+************/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/***********
+Utility*
+************/
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/***********
+Debug*
+************/
+.debug #sidebar{
+    width: 230px;
+    height: calc(100vh - 90px);
+    float: left;
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+.debug #site_main{
+    height: calc(100vh - 90px);
+    width: calc(100% - 230px);
+    float: right;
+    background-color: #141922;
+}
+
+.debug #site_footer{
+    height: 90px;
+    width: 100%;
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
 
