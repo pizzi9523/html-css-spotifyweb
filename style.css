@@ -53,12 +53,11 @@ Sidebar*
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 20px;
     font-size: 12px;
 }
 
-.top_bar .logo {
-    margin-bottom: 20px;
+.top_bar .logo{
+   padding: 20px;
 }
 .top_bar .logo img{
     width: 134px;
@@ -74,6 +73,18 @@ Sidebar*
     height: 2rem;
 } 
 
+.menu .search,
+.menu .my_library,
+.playlist h4,
+.playlist ul li{
+    padding: 0 20px;
+}
+
+.menu .home{
+    border-left: 2px solid #ADFF2F;
+    padding: 0 19px;
+}
+
 .menu img{
     width: 1.5rem;
 }
@@ -87,6 +98,11 @@ Sidebar*
     font-weight: 800;
 }
 
+.playlist .new_playlist{
+    margin: 15px 20px;
+    gap: 10px;
+    font-size: 13px;
+}
 .playlist ul{
     list-style-type: none;
 }
