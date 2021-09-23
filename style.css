@@ -56,9 +56,11 @@ Sidebar*
     font-size: 12px;
 }
 
+/*top_bar*/
 .top_bar .logo{
    padding: 20px;
 }
+
 .top_bar .logo img{
     width: 134px;
 }
@@ -67,12 +69,12 @@ Sidebar*
 .menu .search,
 .menu .my_library,
 .playlist .new_playlist{
-    display: flex;
     align-items: center;
     gap: 4px;
     height: 2rem;
 } 
 
+/*padding 0 20*/
 .menu .search,
 .menu .my_library,
 .playlist h4,
@@ -85,7 +87,8 @@ Sidebar*
     padding: 0 19px;
 }
 
-.menu img{
+.menu img,
+.bottom_bar img{
     width: 1.5rem;
 }
 
@@ -96,6 +99,7 @@ Sidebar*
 .playlist h4{
     margin-bottom: 10px;
     font-weight: 800;
+    font-size: 13px;
 }
 
 .playlist .new_playlist{
@@ -108,8 +112,42 @@ Sidebar*
 }
 
 .playlist ul li{
-    margin: 15px 0;
+    margin: 1.1rem 0;
 }
+
+
+/*bottom_bar*/
+.bottom_bar{
+    padding: 0 20px;
+}
+.bottom_bar .install,
+.bottom_bar .profile{
+    align-items: center;
+    height: 2.5rem;
+    gap: 10px;
+} 
+
+.bottom_bar .install{
+    border-bottom: 1px solid #A3A3A3;
+}
+
+.bottom_bar .profile{
+    font-size: 13px;
+}
+
+.bottom_bar .profile img{
+    width: 24px;
+    height: 24px;
+    background-color: #808080;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
 
 /***********
 Main*
