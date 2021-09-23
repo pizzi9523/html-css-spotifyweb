@@ -185,15 +185,19 @@ Main*
     margin-right: 5px;
 }
 
+/*container*/
 .container{
     margin-top: 90px;
     font-size: 12px;
+    padding: 20px;
 }
+
 /*nav_main*/
 .nav_main{
-    height: 50px;
+    height: 30px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -208,6 +212,31 @@ Main*
     margin: auto;
 }
 
+/*tracks*/
+.row h2{
+    font-size: 22px;
+    margin: 23px 0;
+}
+
+.tracks{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.track{
+    text-align: center;
+    max-width: 177px;
+}
+
+.track img{
+    width: 177px;
+}
+
+.track h3{
+    padding: 10px;
+}
 
 /***********
 Footer*
