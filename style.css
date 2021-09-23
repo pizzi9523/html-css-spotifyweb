@@ -7,6 +7,11 @@ Common*
     padding: 0;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
 /***********
 Utility*
 ************/
@@ -16,29 +21,95 @@ Utility*
     clear: both;
 }
 
+.d_flex{
+    display: flex;
+}
+
+.white{
+    color: white;
+}
+
+
 
 /***********
 Debug*
 ************/
-.debug #sidebar{
+
+
+/***********
+Sidebar*
+************/
+#sidebar{
     width: 230px;
     height: calc(100vh - 90px);
-    float: left;
     background-color: #000;
     position: fixed;
     left: 0;
     top: 0;
+    color: #A3A3A3 ;
 }
 
+.container_column{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    font-size: 12px;
+}
 
-.debug #site_main{
+.top_bar .logo {
+    margin-bottom: 20px;
+}
+.top_bar .logo img{
+    width: 134px;
+}
+
+.menu .home,
+.menu .search,
+.menu .my_library,
+.playlist .new_playlist{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 2rem;
+} 
+
+.menu img{
+    width: 1.5rem;
+}
+
+.playlist{
+    margin: 20px 0;
+}
+
+.playlist h4{
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.playlist ul{
+    list-style-type: none;
+}
+
+.playlist ul li{
+    margin: 15px 0;
+}
+
+/***********
+Main*
+************/
+#site_main{
     height: calc(100vh - 90px);
     width: calc(100% - 230px);
     float: right;
     background-color: #141922;
 }
 
-.debug #site_footer{
+/***********
+Footer*
+************/
+
+#site_footer{
     height: 90px;
     width: 100%;
     background-color: #282828;
@@ -46,6 +117,3 @@ Debug*
     bottom: 0;
     left: 0;
 }
-
-
-
