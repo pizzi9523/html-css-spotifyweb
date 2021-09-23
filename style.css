@@ -10,6 +10,12 @@ Common*
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+        color: #A3A3A3 ;
+
+}
+
+a{
+    text-decoration: none;
 }
 
 /***********
@@ -46,7 +52,6 @@ Sidebar*
     position: fixed;
     left: 0;
     top: 0;
-    color: #A3A3A3 ;
 }
 
 .container_column{
@@ -59,10 +64,12 @@ Sidebar*
 /*top_bar*/
 .top_bar .logo{
    padding: 20px;
+   height: 90px;
 }
 
 .top_bar .logo img{
     width: 134px;
+    height: 100%;
 }
 
 .menu .home,
@@ -158,6 +165,49 @@ Main*
     float: right;
     background-color: #141922;
 }
+
+/*main_header*/
+#main_header{
+    height: 90px;
+    width: calc(100% - 230px);
+    background-color: #080B12;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.upgrade{
+    padding: 10px 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.container{
+    margin-top: 90px;
+    font-size: 12px;
+}
+/*nav_main*/
+.nav_main{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_main a{
+    color: #A3A3A3;
+}
+
+.special{
+    height: 2px;
+    width: 30px;
+    background-color: #ADFF2F;
+    margin: auto;
+}
+
 
 /***********
 Footer*
