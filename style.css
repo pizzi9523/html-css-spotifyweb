@@ -11,7 +11,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #A3A3A3 ;
-
+    overflow: hidden;
 }
 
 a{
@@ -150,12 +150,6 @@ Sidebar*
 }
 
 
-
-
-
-
-
-
 /***********
 Main*
 ************/
@@ -163,6 +157,8 @@ Main*
     width: calc(100% - 230px);
     float: right;
     background-color: #141922;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 /*main_header*/
@@ -224,7 +220,7 @@ Main*
 .tracks{
     justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 1rem;
     margin-top: 30px;
 }
@@ -235,9 +231,13 @@ Main*
 }
 
 .track img{
-    width: 177px;
+    max-width: 100%;
 }
 
+.info{
+    max-width: 177px;
+    min-width: 111px;
+}
 .track h3{
     padding: 10px;
 }
@@ -321,12 +321,15 @@ Footer*
     position: relative;
 }
 
-.long.bar .colored.bar{
+.long.bar .colored.bar {
+    width:85px;
+}
+
+.colored.bar{
     position: absolute;
     top: 0;
     left: 0;
     background-color: #C1C1C1;
-    width:85px;
 }
 
 
@@ -345,9 +348,5 @@ Footer*
 }
 
 .volume.bar .colored.bar{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #C1C1C1;
     width: 24px;
 }
