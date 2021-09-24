@@ -300,14 +300,16 @@ Footer*
 /*central*/
 
 .central{
-   flex-direction: column; 
-   justify-content: center;
-   gap: 8px;
+   flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    flex-grow: 1;
+    max-width: 487px;
 }
 
 .play_control{
     justify-content: center;
-   align-items: center;
+    align-items: center;
     gap: 22px;
 }
 
@@ -329,12 +331,12 @@ Footer*
 }
 
 .long.bar{
-    width: 428px;
+    width: 100%;
     position: relative;
 }
 
 .long.bar .colored.bar {
-    width:85px;
+    width:20%;
 }
 
 .colored.bar{
@@ -372,9 +374,9 @@ Footer*
     }
 
     .row .track {
-    text-align: center;
-    width: calc(100% / 5);
-}
+        text-align: center;
+        width: calc(100% / 5);
+    }
     
 }
 
