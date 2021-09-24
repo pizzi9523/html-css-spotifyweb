@@ -70,6 +70,12 @@ Sidebar*
     height: 100%;
 }
 
+.top_bar .logo_small{
+    width: 24px;
+    margin: 0 10px;
+    display: none;
+}
+
 .menu .home,
 .menu .search,
 .menu .my_library,
@@ -367,6 +373,9 @@ Footer*
 
 
 /*media query*/
+
+
+
 @media screen and (max-width: 1024px){
     .row .tracks{
         justify-content: flex-start;
@@ -375,8 +384,78 @@ Footer*
 
     .row .track {
         text-align: center;
-        width: calc(100% / 5);
+        width: calc(100% / 4.6);
+    }
+
+    .row h2 {
+        font-size: 22px;
+        margin-top: 70px;
     }
     
+}
+
+@media screen and (max-width: 768px){
+    .row .tracks{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .row .track {
+        text-align: center;
+        width: calc(100% / 2.1);
+    }
+    
+
+    .row h2 {
+        font-size: 22px;
+        margin-top: 70px;
+    }
+}
+
+
+
+@media screen and (max-width: 625px){
+    .row .tracks{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .row .track {
+        text-align: center;
+        width: calc(100%/2.1);
+    }
+    
+
+    .row h2 {
+        font-size: 22px;
+        margin-top: 70px;
+    }
+
+    .top_bar .logo_small{
+        display: block;
+    }
+
+    .menu .home,
+    .menu .search,
+    .menu .my_library,
+    .bottom_bar {
+        border: none;
+        padding: 0 10px;
+    }
+    
+    .bottom_bar .install{
+        border: none;
+    }
+    #sidebar{
+        width: auto;
+    }
+
+    #site_main{
+        width: calc(100% - 44px);
+    }
+
+    #sidebar span, li, h4, .logo, .new_playlist{
+        display: none;
+    }
 }
 
