@@ -49,9 +49,7 @@ Sidebar*
     width: 230px;
     height: calc(100vh - 90px);
     background-color: #000;
-    position: fixed;
-    left: 0;
-    top: 0;
+    float: left;
 }
 
 .container_column{
@@ -162,22 +160,27 @@ Main*
 ************/
 #site_main{
     width: calc(100% - 230px);
-    float: right;
     background-color: #141922;
     height: 100vh;
     overflow-y: auto;
+    float: left;
+    position: relative;
+}
+
+.float_container{
+    float: right;
 }
 
 /*main_header*/
 #main_header{
     height: 90px;
-    width: calc(100% - 230px);
-    background-color: #080B12;
+    width: 100%;
+    background-color: #080b1223;
     justify-content: flex-end;
     align-items: center;
-    position: fixed;
+    position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
 }
 
 .upgrade{
@@ -359,10 +362,10 @@ Footer*
 }
 
 
-
-@media screen and (max-width: 1024px){
+/*media query*/
+/* @media screen and (max-width: 1024px){
     .row .tracks{
         flex-wrap: wrap;
     }
     
-}
+} */
