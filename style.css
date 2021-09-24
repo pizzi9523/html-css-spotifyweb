@@ -357,3 +357,12 @@ Footer*
 .volume.bar .colored.bar{
     width: 24px;
 }
+
+
+
+@media screen and (max-width: 1024px){
+    .row .tracks{
+        flex-wrap: wrap;
+    }
+    
+}
