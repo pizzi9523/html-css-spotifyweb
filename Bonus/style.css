@@ -564,7 +564,7 @@ Footer*
         width: calc(100% - 44px);
     }
 
-    #sidebar span, li, h4, .logo, .new_playlist{
+    #sidebar span, li, h4, .logo, .playlist{
         display: none;
     }
 }
