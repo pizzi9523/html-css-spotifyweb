@@ -1,0 +1,27 @@
+
+.debug .container{
+    height: 100vh;;
+}
+
+
+/*sidebar playlist*/
+.heart_pref{
+    background-color: #5040A4;
+    padding: 10px 11px;
+    border-radius: 16%;
+}
+
+/*search_main*/
+#search_main{
+    width: calc(100% - 230px);
+    background-color: #282828;
+    height: 100vh;
+    overflow-y: auto;
+    float: left;
+    position: relative;
+}
+
+
+
+
+
