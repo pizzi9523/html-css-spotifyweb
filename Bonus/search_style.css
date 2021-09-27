@@ -3,6 +3,37 @@
     height: 100vh;;
 }
 
+.button_white{
+    padding: 6px 25px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+}
+
+input[type="search"]{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    height: 100%;
+    width: 240px;
+    padding: 15px;
+}
+
+.special_search{
+    background-color: white;
+    width: 27px;
+    height: 30px;
+    padding-left: 7px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+   
+}
+
+.special_search img{
+    filter: brightness(0.3)
+}
+
+
 
 /*sidebar playlist*/
 .heart_pref{
@@ -14,11 +45,37 @@
 /*search_main*/
 #search_main{
     width: calc(100% - 230px);
-    background-color: #282828;
+    background-color: #121212;
     height: 100vh;
     overflow-y: auto;
     float: left;
     position: relative;
+    padding: 0 32px;
+}
+
+#search_header{
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #090909;
+}
+
+nav, .login{
+    gap: 20px;
+}
+
+.button{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_music{
+    height: 30px;
 }
 
 
