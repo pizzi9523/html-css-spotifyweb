@@ -78,6 +78,8 @@ Sidebar*
 }
 
 /*top_bar*/
+
+
 .top_bar .logo{
    padding: 20px;
    height: 90px;
@@ -136,12 +138,26 @@ Sidebar*
     gap: 10px;
     font-size: 13px;
 }
+
+/*sidebar playlist*/
+.prefer_tracks{
+    border-bottom: 1px solid grey;
+    padding: 15px 20px;
+    align-items: center;
+    gap: 10px;
+}
+.heart_pref{
+    background-color: #5040A4;
+    padding: 10px 11px;
+    border-radius: 16%;
+}
+
 .playlist ul.my_playlist{
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     list-style-type: none;
-    height: calc(100vh - 475px);
+    height: calc(100vh - 540px);
     overflow: auto;
     min-height: 91px;
 

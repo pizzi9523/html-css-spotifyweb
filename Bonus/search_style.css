@@ -27,6 +27,7 @@ input[type="search"]{
    
 }
 
+
 .special_search img{
     filter: brightness(0.3)
 }
@@ -60,18 +61,6 @@ input[type="search"]{
 }
 
 
-/*sidebar playlist*/
-.prefer_tracks{
-    border-bottom: 1px solid grey;
-    padding: 15px 20px;
-    align-items: center;
-    gap: 10px;
-}
-.heart_pref{
-    background-color: #5040A4;
-    padding: 10px 11px;
-    border-radius: 16%;
-}
 
 /*search_main*/
 #search_main{
@@ -172,10 +161,6 @@ h2.white{
     
 }
 
-
-
-
-
 .close{
     width: 18px;
     border-radius: 50%;
@@ -191,10 +176,3 @@ h2.white{
     cursor: pointer;
     transform: scale(1.1);
 }
-
-
-
-
-
-
-
