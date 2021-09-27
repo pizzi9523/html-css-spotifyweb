@@ -44,6 +44,10 @@ Utility*
     display: none;
 }
 
+.playbutton:hover{
+    cursor: pointer;
+}
+
 
 
 /***********
@@ -548,3 +552,19 @@ Footer*
 }
 
 
+@media screen and (max-width: 425px){
+    
+     .row h2 {
+        font-size: 22px;
+        margin-top: 100px;
+    }
+
+
+    .left.playing, .right{
+        display: none;
+    }
+
+    .central{
+       padding: 50px;
+    }
+}
