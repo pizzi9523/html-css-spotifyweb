@@ -330,6 +330,7 @@ Footer*
     position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 2;
 }
 
 .container_footer{
@@ -491,7 +492,7 @@ Footer*
         flex-wrap: wrap;
     }
 
-    .row .track {
+    .row .track, .row .genere, .row .schedule {
         text-align: center;
         width: calc(100% / 4.6);
     }
@@ -509,7 +510,7 @@ Footer*
         flex-wrap: wrap;
     }
 
-    .row .track {
+    .row .track, .row .genere, .row .schedule {
         text-align: center;
         width: calc(100% / 2.1);
     }
@@ -562,6 +563,11 @@ Footer*
 
     #site_main{
         width: calc(100% - 44px);
+    }
+
+    #search_main{
+        width: calc(100% - 64px);
+
     }
 
     #sidebar span, li, h4, .logo, .playlist{

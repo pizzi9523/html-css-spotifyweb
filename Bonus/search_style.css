@@ -80,7 +80,7 @@ input[type="search"]{
 }
 
 /*search_main*/
-#search_main{
+main{
     width: calc(100% - 230px);
     background-color: #121212;
     height: 100vh;
@@ -142,7 +142,7 @@ h2.white{
     width: calc(100% / 7.8);
     padding: 15px 10px;
     position: relative;
-    transition: all 1s;
+    transition: filter 1s;
 
 }
 
@@ -157,8 +157,8 @@ h2.white{
 .playbutton_green{
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 25%;
+    height: 25%;
     border-radius: 50%;
     background-color: #1db954;
     color: white;
@@ -190,6 +190,8 @@ h2.white{
 
 .genere h3.white{
     font-size: 18px;
+    position: relative;
+    z-index: 1;
 }
 
 .genere:hover{
