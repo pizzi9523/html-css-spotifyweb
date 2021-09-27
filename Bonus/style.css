@@ -78,8 +78,6 @@ Sidebar*
 }
 
 /*top_bar*/
-
-
 .top_bar .logo{
    padding: 20px;
    height: 90px;
@@ -116,6 +114,10 @@ Sidebar*
 .menu .home{
     border-left: 2px solid #ADFF2F;
     padding: 0 19px;
+}
+
+.menu .home span{
+    color: white;
 }
 
 .menu img,
