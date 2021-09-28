@@ -63,6 +63,7 @@ Sidebar*
     height: calc(100vh - 90px);
     background-color: #000;
     float: left;
+    overflow-y: auto;
 }
 
 
@@ -241,7 +242,6 @@ Main*
 
 /*nav_main*/
 .nav_main{
-    height: 30px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -298,7 +298,9 @@ Main*
     position: relative;
 }
 
-
+.tracks.most_popular .track img{
+    border-radius: 50%;
+}
 
 .track img{
     width: 100%;
